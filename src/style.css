@@ -1,0 +1,148 @@
+body {
+    background-image: url(./image/eva.jpg);
+    background-size: cover;
+}
+
+.contenedor {
+    /*espacio en las orillas y se ve mejor*/
+    margin: 0 auto;
+    max-width: 120rem;
+    width: 30%; /* el contenedor es de%  */
+}
+
+.seccion {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.background {
+    
+}
+
+/* Texto dentro de la caja */
+.auth__input {
+    color: black;
+    border: 10px;
+    border-bottom: 1px solid grey;
+    font-size: 16px;
+    margin-bottom: 10px;
+    height: 20px;
+    width: 100%;
+}
+
+.auth__input:focus a {
+    border-bottom: 1px solid green;
+    outline: none;
+}
+
+.auth__alert-error {
+    background-color: rgb(153, 0, 0);
+    border-radius: 20%;
+    color: rgb(255, 254, 254);
+    font-size: 16px;
+    font-weight: bold;
+    height: 140px;
+    margin: 0 auto;
+    padding: 15px;
+    text-align: center;
+    text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
+    width: 140px;
+}
+
+/* Formulario */
+
+.login-div {
+    background: #ecf0f3;
+    border-radius: 50px;
+    box-shadow: 13px 13px 20px #cbced1, -13px, -13px 20px #ffffff;
+    height: 890px; /* Largo del formulario (gris) */
+    padding: 60px 35px 35px 35px;
+    width: 430px;
+}
+
+/* Mensaje */
+.mensaje {
+    background-image: url(image/Nerv.jpg);
+    background-size: cover;  /* Ocupa la imagen todo el espacio del cuadro */       
+    border-radius: 20%; /* borde del mensaje */
+    box-shadow: 2px 2px 4px #5f5f5f, 0px 0px 0px 5px #ecf0f3, 8px 8px 15px #a7aaaf, -8px -8px 15px #ffffff;
+    height: 140px;
+    margin: 0 auto; /* Centramos el logo */
+    width: 140px;
+}
+
+/* Titulo */
+.title {
+    font-size: 45px;
+    letter-spacing: 0.5px;
+    padding-top: 24px;
+    text-align: center;
+}
+
+/* Sub-Titulo */
+.sub-title {
+    font-size: 25px;
+    letter-spacing: 3px;
+    padding-top: 7px;
+    text-align: center;
+}
+
+/* caja general del formulario */
+.fields {
+    padding: 10px 5px 5px 5px;
+    width: 100%;
+}
+
+/* Informacion dentro del los inputs */
+.fields input {
+    background: none;
+    border: none;
+    color: #555;
+    font-size: 20px;
+    padding: 20px 10px 20px 5px;
+    text-align: center;
+    outline: none;
+}
+
+/* Caja de los datos */
+.name, .password, .apellido, .password2, .telefono, .email {
+    border-radius: 25px;
+    box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #ffffff;
+    margin-bottom: 20px;
+}
+
+/* Boton */
+.signin-button {
+    background: #2aebc1;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 3px 3px 8px #b1b1b1, -3px -3px 8px #ffffff;
+    color:black;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'lato', sans-serif;
+    height: 50px;
+    outline: none;
+    text-align: center;
+    transition: 0.5s;
+    width: 100%;
+}
+
+/* Hover del boton */
+.signin-button:hover {
+    background: #1db392;
+} 
+
+/* checkbox */
+.submit {
+    border: none;
+    font-size: 22px;
+    margin-bottom: 15px;
+    margin-left: 50px;
+}
+
+.margin {
+    font-size: 20px;
+    margin-left:20px;
+}
