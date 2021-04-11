@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import validator from 'validator'; // Se carga la libreria de VALIDATOR ** npm i validator **
-import Swal from 'sweetalert2';  // Se carga la libreria de VALIDATOR ** npm i sweetAlert2 **
+import Swal from 'sweetalert2';  // Se carga la libreria de SweetAlert2 ** npm i sweetAlert2 **
 
 import { useForm } from './hook/useForm';
 
